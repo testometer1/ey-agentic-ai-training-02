@@ -1,0 +1,32 @@
+Internal incident report — retrieval agent loop
+Date: 18 August 2026
+Author: London Operations Desk
+Systems: live agent planner, Python executor, Pinecone vector database, billing API, Splunk
+
+Summary of event
+On Monday morning the live retrieval agent in London entered a tight tool-call loop.
+The planner asked the Python executor to retry a failed database query without observing the new error state.
+Splunk logs showed forty repeated tool calls against the billing API.
+At the same time, similarity search against the Pinecone vector database returned no policy chunks, so the model began hallucinating account numbers.
+
+Impact
+Production question-answering for Goldman Sachs conservative-profile clients was blocked for 47 minutes.
+The risk desk in New York paused new aggressive-profile recommendations until retrieval was restored.
+No customer funds were moved. No live trades were placed.
+
+Immediate actions
+Sarah Chen stopped the run and added a guardrail that blocks more than three identical tool calls in one loop.
+Engineering in San Francisco rotated the OpenAI embedding key and rebuilt the Pinecone index for European policy chunks.
+Microsoft Azure search failover was tested and left on standby.
+
+Root cause (current view)
+Two issues stacked:
+1. The observe-plan-act cycle skipped the observe step after a timeout.
+2. Retrieval used stale embeddings, so relevant chunks were not ranked.
+
+Follow-up
+- Keep stop-words such as not/never when sentiment is scored on incident notes.
+- Add production logging for every tool call.
+- Re-score conservative, moderate, and aggressive risk profiles after retrieval quality is confirmed.
+
+Status: mitigated, monitoring for 24 hours.

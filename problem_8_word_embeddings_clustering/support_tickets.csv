@@ -1,0 +1,221 @@
+ticket_id,queue,text
+TCK-001,agent_loop,The live agent entered a tight tool call loop after a timeout on run 1.
+TCK-002,agent_loop,The planner skipped the observe step and retried action 2 too quickly.
+TCK-003,agent_loop,Control loop 3 planned then acted then observed the new state.
+TCK-004,agent_loop,Observing state in loop 4 should happen before the next action.
+TCK-005,agent_loop,The observe plan act cycle failed on ticket 5 and kept retrying.
+TCK-006,agent_loop,"Run 6 acted without observing, so the loop never reached a stable state."
+TCK-007,agent_loop,Planning for loop 7 must wait for the latest observed error.
+TCK-008,agent_loop,The agent retry loop on case 8 ignored the failed observe signal.
+TCK-009,agent_loop,The live agent entered a tight tool call loop after a timeout on run 9.
+TCK-010,agent_loop,The planner skipped the observe step and retried action 10 too quickly.
+TCK-011,agent_loop,Control loop 11 planned then acted then observed the new state.
+TCK-012,agent_loop,Observing state in loop 12 should happen before the next action.
+TCK-013,agent_loop,The observe plan act cycle failed on ticket 13 and kept retrying.
+TCK-014,agent_loop,"Run 14 acted without observing, so the loop never reached a stable state."
+TCK-015,agent_loop,Planning for loop 15 must wait for the latest observed error.
+TCK-016,agent_loop,The agent retry loop on case 16 ignored the failed observe signal.
+TCK-017,agent_loop,The live agent entered a tight tool call loop after a timeout on run 17.
+TCK-018,agent_loop,The planner skipped the observe step and retried action 18 too quickly.
+TCK-019,agent_loop,Control loop 19 planned then acted then observed the new state.
+TCK-020,agent_loop,Observing state in loop 20 should happen before the next action.
+TCK-021,agent_loop,The observe plan act cycle failed on ticket 21 and kept retrying.
+TCK-022,agent_loop,"Run 22 acted without observing, so the loop never reached a stable state."
+TCK-023,agent_loop,Planning for loop 23 must wait for the latest observed error.
+TCK-024,agent_loop,The agent retry loop on case 24 ignored the failed observe signal.
+TCK-025,agent_loop,The live agent entered a tight tool call loop after a timeout on run 25.
+TCK-026,agent_loop,The planner skipped the observe step and retried action 26 too quickly.
+TCK-027,agent_loop,Control loop 27 planned then acted then observed the new state.
+TCK-028,agent_loop,Observing state in loop 28 should happen before the next action.
+TCK-029,agent_loop,The observe plan act cycle failed on ticket 29 and kept retrying.
+TCK-030,agent_loop,"Run 30 acted without observing, so the loop never reached a stable state."
+TCK-031,agent_loop,Planning for loop 31 must wait for the latest observed error.
+TCK-032,agent_loop,The agent retry loop on case 32 ignored the failed observe signal.
+TCK-033,agent_loop,The live agent entered a tight tool call loop after a timeout on run 33.
+TCK-034,agent_loop,The planner skipped the observe step and retried action 34 too quickly.
+TCK-035,agent_loop,Control loop 35 planned then acted then observed the new state.
+TCK-036,agent_loop,Observing state in loop 36 should happen before the next action.
+TCK-037,agent_loop,The observe plan act cycle failed on ticket 37 and kept retrying.
+TCK-038,agent_loop,"Run 38 acted without observing, so the loop never reached a stable state."
+TCK-039,agent_loop,Planning for loop 39 must wait for the latest observed error.
+TCK-040,agent_loop,The agent retry loop on case 40 ignored the failed observe signal.
+TCK-041,agent_loop,The live agent entered a tight tool call loop after a timeout on run 41.
+TCK-042,agent_loop,The planner skipped the observe step and retried action 42 too quickly.
+TCK-043,agent_loop,Control loop 43 planned then acted then observed the new state.
+TCK-044,agent_loop,Observing state in loop 44 should happen before the next action.
+TCK-045,agent_loop,The observe plan act cycle failed on ticket 45 and kept retrying.
+TCK-046,agent_loop,"Run 46 acted without observing, so the loop never reached a stable state."
+TCK-047,agent_loop,Planning for loop 47 must wait for the latest observed error.
+TCK-048,agent_loop,The agent retry loop on case 48 ignored the failed observe signal.
+TCK-049,agent_loop,The live agent entered a tight tool call loop after a timeout on run 49.
+TCK-050,agent_loop,The planner skipped the observe step and retried action 50 too quickly.
+TCK-051,agent_loop,Control loop 51 planned then acted then observed the new state.
+TCK-052,agent_loop,Observing state in loop 52 should happen before the next action.
+TCK-053,agent_loop,The observe plan act cycle failed on ticket 53 and kept retrying.
+TCK-054,agent_loop,"Run 54 acted without observing, so the loop never reached a stable state."
+TCK-055,agent_loop,Planning for loop 55 must wait for the latest observed error.
+TCK-056,retrieval,Vector database retrieval for index 56 returned no policy chunks.
+TCK-057,retrieval,Embeddings for document 57 are stale so similarity search ranks the wrong chunks.
+TCK-058,retrieval,Pinecone retrieval quality dropped on European chunk set 58.
+TCK-059,retrieval,Cosine similarity search on embedding 59 failed to find related context.
+TCK-060,retrieval,RAG pipeline 60 must retrieve chunks before the model writes an answer.
+TCK-061,retrieval,The search index stored embeddings for retrieval request 61 incorrectly.
+TCK-062,retrieval,Chunk retrieval 62 hallucinated numbers because the vector store was empty.
+TCK-063,retrieval,Rebuild embedding index 63 so similar documents can be retrieved again.
+TCK-064,retrieval,Vector database retrieval for index 64 returned no policy chunks.
+TCK-065,retrieval,Embeddings for document 65 are stale so similarity search ranks the wrong chunks.
+TCK-066,retrieval,Pinecone retrieval quality dropped on European chunk set 66.
+TCK-067,retrieval,Cosine similarity search on embedding 67 failed to find related context.
+TCK-068,retrieval,RAG pipeline 68 must retrieve chunks before the model writes an answer.
+TCK-069,retrieval,The search index stored embeddings for retrieval request 69 incorrectly.
+TCK-070,retrieval,Chunk retrieval 70 hallucinated numbers because the vector store was empty.
+TCK-071,retrieval,Rebuild embedding index 71 so similar documents can be retrieved again.
+TCK-072,retrieval,Vector database retrieval for index 72 returned no policy chunks.
+TCK-073,retrieval,Embeddings for document 73 are stale so similarity search ranks the wrong chunks.
+TCK-074,retrieval,Pinecone retrieval quality dropped on European chunk set 74.
+TCK-075,retrieval,Cosine similarity search on embedding 75 failed to find related context.
+TCK-076,retrieval,RAG pipeline 76 must retrieve chunks before the model writes an answer.
+TCK-077,retrieval,The search index stored embeddings for retrieval request 77 incorrectly.
+TCK-078,retrieval,Chunk retrieval 78 hallucinated numbers because the vector store was empty.
+TCK-079,retrieval,Rebuild embedding index 79 so similar documents can be retrieved again.
+TCK-080,retrieval,Vector database retrieval for index 80 returned no policy chunks.
+TCK-081,retrieval,Embeddings for document 81 are stale so similarity search ranks the wrong chunks.
+TCK-082,retrieval,Pinecone retrieval quality dropped on European chunk set 82.
+TCK-083,retrieval,Cosine similarity search on embedding 83 failed to find related context.
+TCK-084,retrieval,RAG pipeline 84 must retrieve chunks before the model writes an answer.
+TCK-085,retrieval,The search index stored embeddings for retrieval request 85 incorrectly.
+TCK-086,retrieval,Chunk retrieval 86 hallucinated numbers because the vector store was empty.
+TCK-087,retrieval,Rebuild embedding index 87 so similar documents can be retrieved again.
+TCK-088,retrieval,Vector database retrieval for index 88 returned no policy chunks.
+TCK-089,retrieval,Embeddings for document 89 are stale so similarity search ranks the wrong chunks.
+TCK-090,retrieval,Pinecone retrieval quality dropped on European chunk set 90.
+TCK-091,retrieval,Cosine similarity search on embedding 91 failed to find related context.
+TCK-092,retrieval,RAG pipeline 92 must retrieve chunks before the model writes an answer.
+TCK-093,retrieval,The search index stored embeddings for retrieval request 93 incorrectly.
+TCK-094,retrieval,Chunk retrieval 94 hallucinated numbers because the vector store was empty.
+TCK-095,retrieval,Rebuild embedding index 95 so similar documents can be retrieved again.
+TCK-096,retrieval,Vector database retrieval for index 96 returned no policy chunks.
+TCK-097,retrieval,Embeddings for document 97 are stale so similarity search ranks the wrong chunks.
+TCK-098,retrieval,Pinecone retrieval quality dropped on European chunk set 98.
+TCK-099,retrieval,Cosine similarity search on embedding 99 failed to find related context.
+TCK-100,retrieval,RAG pipeline 100 must retrieve chunks before the model writes an answer.
+TCK-101,retrieval,The search index stored embeddings for retrieval request 101 incorrectly.
+TCK-102,retrieval,Chunk retrieval 102 hallucinated numbers because the vector store was empty.
+TCK-103,retrieval,Rebuild embedding index 103 so similar documents can be retrieved again.
+TCK-104,retrieval,Vector database retrieval for index 104 returned no policy chunks.
+TCK-105,retrieval,Embeddings for document 105 are stale so similarity search ranks the wrong chunks.
+TCK-106,retrieval,Pinecone retrieval quality dropped on European chunk set 106.
+TCK-107,retrieval,Cosine similarity search on embedding 107 failed to find related context.
+TCK-108,retrieval,RAG pipeline 108 must retrieve chunks before the model writes an answer.
+TCK-109,retrieval,The search index stored embeddings for retrieval request 109 incorrectly.
+TCK-110,retrieval,Chunk retrieval 110 hallucinated numbers because the vector store was empty.
+TCK-111,risk,Conservative profile 111 should not receive an aggressive trade.
+TCK-112,risk,Risk desk scoring for client 112 sits between moderate and aggressive.
+TCK-113,risk,Leverage on account 113 is too high for a conservative investment profile.
+TCK-114,risk,The committee rejected aggressive risk for new client 114.
+TCK-115,risk,Portfolio risk for profile 115 needs a written conservative explanation.
+TCK-116,risk,Moderate risk client 116 asked to move toward a more aggressive profile.
+TCK-117,risk,Failed recommendation 117 used the wrong conservative versus aggressive mapping.
+TCK-118,risk,Score the investment profile for ticket 118 before approving leverage.
+TCK-119,risk,Conservative profile 119 should not receive an aggressive trade.
+TCK-120,risk,Risk desk scoring for client 120 sits between moderate and aggressive.
+TCK-121,risk,Leverage on account 121 is too high for a conservative investment profile.
+TCK-122,risk,The committee rejected aggressive risk for new client 122.
+TCK-123,risk,Portfolio risk for profile 123 needs a written conservative explanation.
+TCK-124,risk,Moderate risk client 124 asked to move toward a more aggressive profile.
+TCK-125,risk,Failed recommendation 125 used the wrong conservative versus aggressive mapping.
+TCK-126,risk,Score the investment profile for ticket 126 before approving leverage.
+TCK-127,risk,Conservative profile 127 should not receive an aggressive trade.
+TCK-128,risk,Risk desk scoring for client 128 sits between moderate and aggressive.
+TCK-129,risk,Leverage on account 129 is too high for a conservative investment profile.
+TCK-130,risk,The committee rejected aggressive risk for new client 130.
+TCK-131,risk,Portfolio risk for profile 131 needs a written conservative explanation.
+TCK-132,risk,Moderate risk client 132 asked to move toward a more aggressive profile.
+TCK-133,risk,Failed recommendation 133 used the wrong conservative versus aggressive mapping.
+TCK-134,risk,Score the investment profile for ticket 134 before approving leverage.
+TCK-135,risk,Conservative profile 135 should not receive an aggressive trade.
+TCK-136,risk,Risk desk scoring for client 136 sits between moderate and aggressive.
+TCK-137,risk,Leverage on account 137 is too high for a conservative investment profile.
+TCK-138,risk,The committee rejected aggressive risk for new client 138.
+TCK-139,risk,Portfolio risk for profile 139 needs a written conservative explanation.
+TCK-140,risk,Moderate risk client 140 asked to move toward a more aggressive profile.
+TCK-141,risk,Failed recommendation 141 used the wrong conservative versus aggressive mapping.
+TCK-142,risk,Score the investment profile for ticket 142 before approving leverage.
+TCK-143,risk,Conservative profile 143 should not receive an aggressive trade.
+TCK-144,risk,Risk desk scoring for client 144 sits between moderate and aggressive.
+TCK-145,risk,Leverage on account 145 is too high for a conservative investment profile.
+TCK-146,risk,The committee rejected aggressive risk for new client 146.
+TCK-147,risk,Portfolio risk for profile 147 needs a written conservative explanation.
+TCK-148,risk,Moderate risk client 148 asked to move toward a more aggressive profile.
+TCK-149,risk,Failed recommendation 149 used the wrong conservative versus aggressive mapping.
+TCK-150,risk,Score the investment profile for ticket 150 before approving leverage.
+TCK-151,risk,Conservative profile 151 should not receive an aggressive trade.
+TCK-152,risk,Risk desk scoring for client 152 sits between moderate and aggressive.
+TCK-153,risk,Leverage on account 153 is too high for a conservative investment profile.
+TCK-154,risk,The committee rejected aggressive risk for new client 154.
+TCK-155,risk,Portfolio risk for profile 155 needs a written conservative explanation.
+TCK-156,risk,Moderate risk client 156 asked to move toward a more aggressive profile.
+TCK-157,risk,Failed recommendation 157 used the wrong conservative versus aggressive mapping.
+TCK-158,risk,Score the investment profile for ticket 158 before approving leverage.
+TCK-159,risk,Conservative profile 159 should not receive an aggressive trade.
+TCK-160,risk,Risk desk scoring for client 160 sits between moderate and aggressive.
+TCK-161,risk,Leverage on account 161 is too high for a conservative investment profile.
+TCK-162,risk,The committee rejected aggressive risk for new client 162.
+TCK-163,risk,Portfolio risk for profile 163 needs a written conservative explanation.
+TCK-164,risk,Moderate risk client 164 asked to move toward a more aggressive profile.
+TCK-165,risk,Failed recommendation 165 used the wrong conservative versus aggressive mapping.
+TCK-166,tools,Production guardrails blocked an unsafe tool call on job 166.
+TCK-167,tools,Log every tool call in production run 167 before retrying the API.
+TCK-168,tools,Unsafe tool use on service 168 can harm the live billing API.
+TCK-169,tools,Change 169 rejects dangerous tool calls in the production executor.
+TCK-170,tools,CloudWatch fired because tool call 170 repeated more than three times.
+TCK-171,tools,The executor selected an unsafe tool for production task 171.
+TCK-172,tools,Guardrail policy 172 must log and reject identical production tool calls.
+TCK-173,tools,Live API tool retries on incident 173 were blocked by production safety rules.
+TCK-174,tools,Production guardrails blocked an unsafe tool call on job 174.
+TCK-175,tools,Log every tool call in production run 175 before retrying the API.
+TCK-176,tools,Unsafe tool use on service 176 can harm the live billing API.
+TCK-177,tools,Change 177 rejects dangerous tool calls in the production executor.
+TCK-178,tools,CloudWatch fired because tool call 178 repeated more than three times.
+TCK-179,tools,The executor selected an unsafe tool for production task 179.
+TCK-180,tools,Guardrail policy 180 must log and reject identical production tool calls.
+TCK-181,tools,Live API tool retries on incident 181 were blocked by production safety rules.
+TCK-182,tools,Production guardrails blocked an unsafe tool call on job 182.
+TCK-183,tools,Log every tool call in production run 183 before retrying the API.
+TCK-184,tools,Unsafe tool use on service 184 can harm the live billing API.
+TCK-185,tools,Change 185 rejects dangerous tool calls in the production executor.
+TCK-186,tools,CloudWatch fired because tool call 186 repeated more than three times.
+TCK-187,tools,The executor selected an unsafe tool for production task 187.
+TCK-188,tools,Guardrail policy 188 must log and reject identical production tool calls.
+TCK-189,tools,Live API tool retries on incident 189 were blocked by production safety rules.
+TCK-190,tools,Production guardrails blocked an unsafe tool call on job 190.
+TCK-191,tools,Log every tool call in production run 191 before retrying the API.
+TCK-192,tools,Unsafe tool use on service 192 can harm the live billing API.
+TCK-193,tools,Change 193 rejects dangerous tool calls in the production executor.
+TCK-194,tools,CloudWatch fired because tool call 194 repeated more than three times.
+TCK-195,tools,The executor selected an unsafe tool for production task 195.
+TCK-196,tools,Guardrail policy 196 must log and reject identical production tool calls.
+TCK-197,tools,Live API tool retries on incident 197 were blocked by production safety rules.
+TCK-198,tools,Production guardrails blocked an unsafe tool call on job 198.
+TCK-199,tools,Log every tool call in production run 199 before retrying the API.
+TCK-200,tools,Unsafe tool use on service 200 can harm the live billing API.
+TCK-201,tools,Change 201 rejects dangerous tool calls in the production executor.
+TCK-202,tools,CloudWatch fired because tool call 202 repeated more than three times.
+TCK-203,tools,The executor selected an unsafe tool for production task 203.
+TCK-204,tools,Guardrail policy 204 must log and reject identical production tool calls.
+TCK-205,tools,Live API tool retries on incident 205 were blocked by production safety rules.
+TCK-206,tools,Production guardrails blocked an unsafe tool call on job 206.
+TCK-207,tools,Log every tool call in production run 207 before retrying the API.
+TCK-208,tools,Unsafe tool use on service 208 can harm the live billing API.
+TCK-209,tools,Change 209 rejects dangerous tool calls in the production executor.
+TCK-210,tools,CloudWatch fired because tool call 210 repeated more than three times.
+TCK-211,tools,The executor selected an unsafe tool for production task 211.
+TCK-212,tools,Guardrail policy 212 must log and reject identical production tool calls.
+TCK-213,tools,Live API tool retries on incident 213 were blocked by production safety rules.
+TCK-214,tools,Production guardrails blocked an unsafe tool call on job 214.
+TCK-215,tools,Log every tool call in production run 215 before retrying the API.
+TCK-216,tools,Unsafe tool use on service 216 can harm the live billing API.
+TCK-217,tools,Change 217 rejects dangerous tool calls in the production executor.
+TCK-218,tools,CloudWatch fired because tool call 218 repeated more than three times.
+TCK-219,tools,The executor selected an unsafe tool for production task 219.
+TCK-220,tools,Guardrail policy 220 must log and reject identical production tool calls.

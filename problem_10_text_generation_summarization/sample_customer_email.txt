@@ -1,0 +1,12 @@
+Hello support team,
+
+Our live retrieval agent in London has been failing since this morning.
+It keeps calling the billing API in a loop and is NOT returning chunks from the Pinecone vector database.
+Please look at https://status.internal.ey.com/agents/loop-42 and email me at ops.lead@ey-demo.com.
+
+This is blocking production for Goldman Sachs conservative-profile clients.
+We never saw this on Friday. Please reply today.
+
+Thanks,
+Sarah Chen
+London Operations
