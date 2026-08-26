@@ -1,0 +1,24 @@
+account_id,ACC-4412
+client_name,Sarah Chen
+relationship_manager,Priya Nair
+period,1 July 2026 - 31 July 2026
+base_currency,USD
+opening_cash,412550.00
+closing_cash,198320.75
+opening_portfolio_mv,2410000.00
+closing_portfolio_mv,2398500.00
+risk_profile_start,RSK-PROF-C01 conservative
+risk_profile_end,RSK-PROF-C01 conservative
+date,type,amount,description
+2026-07-02,inflow,25000.00,Payroll credit from Chen Advisory LLP
+2026-07-05,dividend,1840.50,Dividend on Vanguard Total Stock ETF (VTI)
+2026-07-08,fee,-45.00,Monthly custody fee
+2026-07-11,outflow,-3200.00,Bill pay: property tax installment
+2026-07-14,trade,-15000.00,Sell 80 shares VTI at recorded fill; proceeds to cash
+2026-07-18,missed_payment,-0.00,Scheduled margin-loan interest debit of 612.40 was not collected (insufficient cash at 09:00 UTC)
+2026-07-18,fee,-25.00,Missed-payment administration fee
+2026-07-21,outflow,-185000.00,Outgoing wire to First National Private Bank (client-authorised; reference HOUSE-DEP-0721)
+2026-07-24,inflow,8000.00,Transfer in from linked checking *4412
+2026-07-28,fee,-450.00,Wire handling fee on HOUSE-DEP-0721
+2026-07-31,interest,12.65,Cash sweep interest
+notes,Risk profile was reviewed on 22 July after the 185000 house-deposit wire; it stayed conservative (RSK-PROF-C01). No new products were opened. June statement and August activity are not in this extract.
