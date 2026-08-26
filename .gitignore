@@ -6,3 +6,7 @@ __pycache__/
 .env.*
 .vscode/
 Agentic AI - FS 1.1 (1) (3).pdf
+**/.chroma/
+problem_16_ticket_search/tickets/
+problem_16_ticket_search/embedder.pkl
+problem_15_policy_rag/embedder.pkl

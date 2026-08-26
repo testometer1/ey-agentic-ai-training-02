@@ -1,0 +1,6 @@
+customer_id,status,churn_date,reason
+CUST-8801,churned,2026-08-04,closed account after repeated mobile session drops
+CUST-2190,active,,
+CUST-4400,active,,
+CUST-4401,churned,2026-06-12,moved to another custodian
+CUST-4100,active,,
